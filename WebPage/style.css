@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&family=Tiro+Devanagari+Marathi&display=swap');
+
+/* font-family: 'Rozha One', serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+    color:#4F0000;
+}
+body{
+    overflow: hidden;
+    font-family: 'Tiro Devanagari Marathi', serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #272727;
+    height: 100vh;
+    /* height: 900px; */
+}
+
+.main-card{
+    background-color: #FFAD32;
+    /* width: 30vw; */
+    width: 480px;
+    /* height: 770px; */
+    height: 790px;
+}
+.ganpati-logo img {
+    width: 7vw;
+}
+.card-top-part{
+    display: flex;
+}
+.ganpati-rightside-content{
+    display: flex;
+    flex-direction: column;
+    /* gap: 2px; */
+    margin-top: 10px;
+}
+.grc{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    /* font-weight:bold; */
+    
+}
+.vadhu-title{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* margin-top: 0px; */
+    
+}
+.vadhu-flower-logo img{
+    width: 11px;
+    /* margin-top: 3px; */
+    /* height: 30px; */
+}
+.vadhu-main-title{
+    font-weight:bold;
+    font-size: 15px;
+}
+
+.vadhu-details{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.vadhu-name{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Rozha One', serif;
+}
+.vadhu-parents-and-hometown{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.card-bottom-part{
+    display: flex;
+    justify-content: center;
+}
+.nimantrak-container{
+    width: 330px;
+    height: 90px;
+    border: 1px solid #4F0000;
+    border-radius: 15px;
+    margin-top: 10px;
+    box-shadow: 4px 4px 4px #4F0000;
+}
+.nimantrak-title{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 485px;
+    left: 732px;
+    /* right: 732px; */
+    width: 134px;
+    height: 24px;
+    gap: 10px;
+    /* padding-top: 5px; */
+    font-family: 'Rozha One', serif;
+    /* border: 1px solid #4F0000; */
+    font-weight: bolder;
+    background-color: #FFAD32;
+}
+.section-title-2{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.nimantrak-flower-logo img{
+    width: 11px;
+    margin-top: 8px;
+}
+.nimantrak-top-two-names{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 16px;
+    gap: 1px;
+    font-size: 17px;
+}
+.top-name{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.bottom-name{
+    display: flex;
+    justify-content: center;
+}
+.mobile-numbers{
+    display: flex;
+    justify-content: center;
+}
+
+.card-bottom-location-part{
+    display: flex;
+    flex-direction: column;
+}
+.section-title{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Rozha One', serif;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+.two-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 5px;
+}
+.first-container{
+    width: 157px;
+    height: 116px;
+    border: 1px solid #4F0000;
+    border-radius: 15px;
+    font-family: 'Rozha One', serif;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.second-container{
+    width: 220px;
+    height: 101px;
+    border: 1px solid #4F0000;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.mrg-loc-title{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+.mrg-details{
+    margin-top: 5px;
+}
+.mrg-line{
+    display: flex;
+    justify-content: center;
+}
+.hal-loc-title{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 635px;
+    top: 632px;
+    width: 150px;
+    gap: 10px;
+    margin-top: 5px;
+    font-family: 'Rozha One', serif;
+    font-weight: bolder;
+    font-size: 17px;
+    background-color: #FFAD32;
+}
+.hal-details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 13px;
+}
+.hal-line{
+    display:flex;
+    justify-content: center;
+}
+.handshake-img-1 img{
+    position: absolute;
+    top: 210px;
+    left: 580px;
+    width: 112px;
+}
+.handshake-img-2 img{
+    position: absolute;
+    top: 210px;
+    right: 580px;
+    width: 112px;
+}
